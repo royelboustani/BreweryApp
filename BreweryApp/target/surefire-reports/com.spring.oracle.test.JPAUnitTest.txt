@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: com.spring.oracle.test.JPAUnitTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 36.519 s <<< FAILURE! - in com.spring.oracle.test.JPAUnitTest
+should_update_brewery_by_id  Time elapsed: 0.533 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting:
+ <"Updated Brewery">
+to be equal to:
+ <2L>
+but was not.
+	at com.spring.oracle.test.JPAUnitTest.should_update_brewery_by_id(JPAUnitTest.java:45)
+
+should_delete_brewery_by_id  Time elapsed: 1.334 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected size:<2> but was:<4> in:
+<[Brewery [id=3, name=Brewery One],
+    Brewery [id=5, name=Brewery Three],
+    Brewery [id=1, name=brewery1],
+    Brewery [id=2, name=brewery2]]>
+	at com.spring.oracle.test.JPAUnitTest.should_delete_brewery_by_id(JPAUnitTest.java:64)
+
+should_find_all_brewery  Time elapsed: 0.575 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected size:<3> but was:<5> in:
+<[Brewery [id=6, name=Brewery One],
+    Brewery [id=7, name=Brewery Two],
+    Brewery [id=8, name=Brewery Four],
+    Brewery [id=1, name=brewery1],
+    Brewery [id=2, name=brewery2]]>
+	at com.spring.oracle.test.JPAUnitTest.should_find_all_brewery(JPAUnitTest.java:93)
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-oracle
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: RoyBoustany
+Implementation-Vendor-Id: com.spring
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://spring.io/projects/spring-boot/spring-boot
+ -oracle
+Created-By: Maven Integration for Eclipse
+
